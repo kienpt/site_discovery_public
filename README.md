@@ -3,7 +3,7 @@ This repository contains the source code for the following paper:
 
 [Bootstrapping Domain-Specific Content Discovery on the Web, Kien Pham, Aecio Santos and Juliana Freire, The Web Conference 2019](https://arxiv.org/pdf/1902.09667.pdf).
 
-# How to start:
+## How to start:
 - Register accounts for Bing APIs, Google Custome Search APIs and MOZ APIs.
 - Add the access keys associated with these accounts to set up the search apis in search_apis/search_apis.py 
 - Install dependencies:
@@ -25,4 +25,4 @@ This repository contains the source code for the following paper:
 	python discovery/site_discovery.py -seed data/seeds/atf/atf_ads.txt -out data/discovery/ads/bandit -rank stacking -re body -o -count 50 -search bandit -i 20 -skw "gun classified" -neg data/candidates/dmoz/negative_dmoz_sites.txt
 	```
 
-## The code in this repository is available under Apache license 2.0
+### The code in this repository is available under Apache license 2.0
